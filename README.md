@@ -1,1 +1,4 @@
-# applications-of-data-science-comp8240-group-l
+# Applications of data science comp8240 group-L
+
+In our daily lives, photos are widely employed to capture moments, provide security with CCTV cameras, aid law enforcement and the medical profession, etc. The MIRNet-v2 research paper that we replicated, focuses on improving image quality. When the model receives an input image I, the first convolutional layer extracts low level features from this given image into feature maps. The feature maps are passed through the recursive residual groups (RRGs) which contains some multiscale residual blocks (MRBs) that yields deeper features from the feature maps. Lastly, a convolutional layer is applied to these deep features to get the restored image Î.
+The MIRNet-v2 model performs full image resolution processing, and the complementary sets of parallel branches provides better contextualized features for the output images.
